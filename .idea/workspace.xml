@@ -4,11 +4,43 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a571a936-7107-4cba-aa85-2534f11dca88" name="Changes" comment="" />
+    <list default="true" id="a571a936-7107-4cba-aa85-2534f11dca88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/02controlers/for/for.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02controlers/ifelse/ifelse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02controlers/ifelseif/ifelseif.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02controlers/ifinit/ifinit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02controlers/switch1/switch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02controlers/switch2/switch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02controlers/switch3/switch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/aritmeticos/aritmenticos.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/aritmeticos/aritmenticos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/atribuicao/atribuicao.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/atribuicao/atribuicao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/comandos/comandos.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/comandos/comandos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/constvar/constvar.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/constvar/constvar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/conversoes/conversoes.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/conversoes/conversoes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/funcoes/funcoes.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/funcoes/funcoes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/funcoes/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/funcoes/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/logicos/logicos.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/logicos/logicos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/naternario/naoternario.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/naternario/naoternario.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/ponteiro/ponteiro.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/ponteiro/ponteiro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/primeiro/primeiro.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/primeiro/primeiro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/prints/prints.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/prints/prints.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/relacionais/relacionais.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/relacionais/relacionais.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/tipos/tipos.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/tipos/tipos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/unario/unario.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/unario/unario.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentos/zeros/zeros.go" beforeDir="false" afterPath="$PROJECT_DIR$/01fundamentos/zeros/zeros.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
@@ -24,8 +56,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
@@ -36,25 +70,76 @@
     "last_opened_file_path": "/Users/dfernandes/go/src/go-explorando-linguagem-google"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="go build cod3r/fundamentos/unario" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build cod3r/02controlers/switch3">
+    <configuration name="go build cod3r/02controlers/for" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="cod3r/fundamentos/unario" />
+      <package value="cod3r/02controlers/for" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/fundamentos/unario/unario.go" />
+      <filePath value="$PROJECT_DIR$/02controlers/for/for.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build cod3r/02controlers/switch2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="cod3r/02controlers/switch2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/02controlers/switch2/switch.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build cod3r/02controlers/switch3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="cod3r/02controlers/switch3" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/02controlers/switch3/switch.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build switch.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="cod3r" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/02controlers/switch2/switch.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="cod3r" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/02controlers/switch1/switch.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build cod3r/fundamentos/unario" />
+        <item itemvalue="Go Build.go build cod3r/02controlers/switch3" />
+        <item itemvalue="Go Build.go build switch.go (1)" />
+        <item itemvalue="Go Build.go build cod3r/02controlers/switch2" />
+        <item itemvalue="Go Build.go build switch.go" />
+        <item itemvalue="Go Build.go build cod3r/02controlers/for" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
