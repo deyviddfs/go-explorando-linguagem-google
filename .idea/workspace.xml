@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a571a936-7107-4cba-aa85-2534f11dca88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/04funcoes/basicas/funcoes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/closure/closure.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/comoparametro/comoparametro.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/defer/defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/init/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/init/init2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/pilha/pilha.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/ponteiro/ponteiro.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/primeiraclasse/primeiraclasse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/recursividade/recursividade.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/recursividadesimples/recursividade.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/retornonomeado/retornonomeado.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/variatica/variatica.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04funcoes/variaticaslice/variaticaslice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/composicao/composicao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/interface1/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/interface2/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/json/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/metodos/metodos.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/meutipo/meutipo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/pseudoheranca/pseudoheranca.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/struct/struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/structaninhada/structaninhada.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05tipos/tipointerface/tipointerface.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,80 +41,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/dfernandes/go/src/go-explorando-linguagem-google/04funcoes/init"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dfernandes/go/src/go-explorando-linguagem-google/04funcoes/init&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/04funcoes/init" />
       <recent name="$PROJECT_DIR$/04funcoes" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build cod3r/04funcoes/init">
-    <configuration name="go build cod3r/04funcoes/init" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build cod3r/05tipos/json">
+    <configuration name="go build cod3r/05tipos/composicao" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="cod3r/04funcoes/init" />
+      <package value="cod3r/05tipos/composicao" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05tipos/composicao/composicao.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build cod3r/04funcoes/recursividadesimples" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build cod3r/05tipos/json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="cod3r/04funcoes/recursividadesimples" />
+      <package value="cod3r/05tipos/json" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/04funcoes/recursividadesimples/recursividade.go" />
+      <filePath value="$PROJECT_DIR$/05tipos/json/json.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build cod3r/05tipos/tipointerface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="cod3r/05tipos/tipointerface" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05tipos/tipointerface/tipointerface.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build interface.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="cod3r" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/04funcoes/defer/defer.go" />
+      <filePath value="$PROJECT_DIR$/05tipos/interface2/interface.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build init.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="cod3r" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/04funcoes/init/init.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build ponteiro.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="cod3r" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/04funcoes/ponteiro/ponteiro.go" />
+      <filePath value="$PROJECT_DIR$/05tipos/json/json.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build cod3r/04funcoes/init" />
-        <item itemvalue="Go Build.go build init.go" />
-        <item itemvalue="Go Build.go build ponteiro.go" />
-        <item itemvalue="Go Build.go build defer.go" />
-        <item itemvalue="Go Build.go build cod3r/04funcoes/recursividadesimples" />
+        <item itemvalue="Go Build.go build cod3r/05tipos/json" />
+        <item itemvalue="Go Build.go build json.go" />
+        <item itemvalue="Go Build.go build cod3r/05tipos/tipointerface" />
+        <item itemvalue="Go Build.go build cod3r/05tipos/composicao" />
+        <item itemvalue="Go Build.go build interface.go (1)" />
       </list>
     </recent_temporary>
   </component>
