@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a571a936-7107-4cba-aa85-2534f11dca88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/05tipos/composicao/composicao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05tipos/interface1/interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05tipos/interface2/interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05tipos/json/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05tipos/metodos/metodos.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05tipos/meutipo/meutipo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05tipos/pseudoheranca/pseudoheranca.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05tipos/struct/struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05tipos/structaninhada/structaninhada.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05tipos/tipointerface/tipointerface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06pacote/reta/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06pacote/reta/reta.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06pacote/reuso/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +26,9 @@
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/06pacote/reuso/main.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,16 +60,7 @@
       <recent name="$PROJECT_DIR$/04funcoes" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build cod3r/05tipos/json">
-    <configuration name="go build cod3r/05tipos/composicao" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="cod3r/05tipos/composicao" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05tipos/composicao/composicao.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build cod3r/05tipos/json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,13 +79,13 @@
       <filePath value="$PROJECT_DIR$/05tipos/tipointerface/tipointerface.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build interface.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build cod3r/06pacote/reta" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="cod3r" />
+      <kind value="PACKAGE" />
+      <package value="cod3r/06pacote/reta" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05tipos/interface2/interface.go" />
+      <filePath value="$PROJECT_DIR$/06pacote/reta/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -109,13 +97,22 @@
       <filePath value="$PROJECT_DIR$/05tipos/json/json.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="cod3r" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/06pacote/reuso/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build cod3r/06pacote/reta" />
         <item itemvalue="Go Build.go build cod3r/05tipos/json" />
         <item itemvalue="Go Build.go build json.go" />
         <item itemvalue="Go Build.go build cod3r/05tipos/tipointerface" />
-        <item itemvalue="Go Build.go build cod3r/05tipos/composicao" />
-        <item itemvalue="Go Build.go build interface.go (1)" />
       </list>
     </recent_temporary>
   </component>
