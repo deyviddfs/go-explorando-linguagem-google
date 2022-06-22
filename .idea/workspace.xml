@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a571a936-7107-4cba-aa85-2534f11dca88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/06pacote/reta/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06pacote/reta/reta.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06pacote/reuso/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/bloqueio/bloqueio.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/buffer/buffer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/channel1/channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/channel2/channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/cpus/cpus.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/generator/generator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/goroutine/goroutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/multiplexar/multiplexar.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/multiplexar2/multiplexar.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/primos/primos.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07concorrencia/select/select.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,59 +67,59 @@
       <recent name="$PROJECT_DIR$/04funcoes" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build cod3r/05tipos/json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="cod3r/05tipos/json" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05tipos/json/json.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build cod3r/05tipos/tipointerface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="cod3r/05tipos/tipointerface" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05tipos/tipointerface/tipointerface.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build cod3r/06pacote/reta" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="cod3r/06pacote/reta" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/06pacote/reta/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build multiplexar.go (1)">
+    <configuration name="go build generator.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="cod3r" />
+      <package value="go-explorando-linguagem-google" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05tipos/json/json.go" />
+      <filePath value="$PROJECT_DIR$/07concorrencia/generator/generator.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build multiplexar.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="cod3r" />
+      <package value="go-explorando-linguagem-google" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/06pacote/reuso/main.go" />
+      <filePath value="$PROJECT_DIR$/07concorrencia/multiplexar2/multiplexar.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build multiplexar.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-explorando-linguagem-google" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/07concorrencia/multiplexar/multiplexar.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build primos.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-explorando-linguagem-google" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/07concorrencia/primos/primos.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-explorando-linguagem-google" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/07concorrencia/select/select.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build cod3r/06pacote/reta" />
-        <item itemvalue="Go Build.go build cod3r/05tipos/json" />
-        <item itemvalue="Go Build.go build json.go" />
-        <item itemvalue="Go Build.go build cod3r/05tipos/tipointerface" />
+        <item itemvalue="Go Build.go build multiplexar.go (1)" />
+        <item itemvalue="Go Build.go build select.go" />
+        <item itemvalue="Go Build.go build multiplexar.go" />
+        <item itemvalue="Go Build.go build generator.go" />
+        <item itemvalue="Go Build.go build primos.go" />
       </list>
     </recent_temporary>
   </component>
@@ -133,5 +140,21 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/07concorrencia/bloqueio/bloqueio.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/07concorrencia/multiplexar/multiplexar.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
