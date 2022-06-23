@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a571a936-7107-4cba-aa85-2534f11dca88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/07concorrencia/bloqueio/bloqueio.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/buffer/buffer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/channel1/channel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/channel2/channel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/cpus/cpus.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/generator/generator.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/goroutine/goroutine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/multiplexar/multiplexar.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/multiplexar2/multiplexar.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/primos/primos.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07concorrencia/select/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09sql/estrutura/estrutura.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09sql/insert/insert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09sql/select/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09sql/transacao/transacao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09sql/updatedelete/updatedelete.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,60 +60,70 @@
       <recent name="$PROJECT_DIR$/04funcoes/init" />
       <recent name="$PROJECT_DIR$/04funcoes" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/09sql/transacao" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build multiplexar.go (1)">
-    <configuration name="go build generator.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build select">
+    <configuration name="go build crud" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$/09sql/crud" />
+      <kind value="PACKAGE" />
+      <package value="crud" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07concorrencia/generator/generator.go" />
+      <filePath value="$PROJECT_DIR$/09sql/crud/insert.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build multiplexar.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build insert" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$/09sql/insert" />
+      <kind value="PACKAGE" />
+      <package value="insert" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07concorrencia/multiplexar2/multiplexar.go" />
+      <filePath value="$PROJECT_DIR$/09sql/insert/insert.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build multiplexar.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build select" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$/09sql/select" />
+      <kind value="PACKAGE" />
+      <package value="select" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07concorrencia/multiplexar/multiplexar.go" />
+      <filePath value="$PROJECT_DIR$/09sql/select/select.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build primos.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build transacao" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$/09sql/transacao" />
+      <kind value="PACKAGE" />
+      <package value="transacao" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07concorrencia/primos/primos.go" />
+      <filePath value="$PROJECT_DIR$/09sql/transacao/transacao.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build updatedelete" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$/09sql/updatedelete" />
+      <kind value="PACKAGE" />
+      <package value="updatedelete" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07concorrencia/select/select.go" />
+      <filePath value="$PROJECT_DIR$/09sql/updatedelete/updatedelete.go" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build crud" />
+      <item itemvalue="Go Build.go build insert" />
+      <item itemvalue="Go Build.go build select" />
+      <item itemvalue="Go Build.go build transacao" />
+      <item itemvalue="Go Build.go build updatedelete" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build multiplexar.go (1)" />
-        <item itemvalue="Go Build.go build select.go" />
-        <item itemvalue="Go Build.go build multiplexar.go" />
-        <item itemvalue="Go Build.go build generator.go" />
-        <item itemvalue="Go Build.go build primos.go" />
+        <item itemvalue="Go Build.go build select" />
+        <item itemvalue="Go Build.go build updatedelete" />
+        <item itemvalue="Go Build.go build transacao" />
+        <item itemvalue="Go Build.go build insert" />
+        <item itemvalue="Go Build.go build crud" />
       </list>
     </recent_temporary>
   </component>
@@ -156,5 +160,12 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/go_explorando_linguagem_google$go_test_matematica.out" NAME="go test matematica Coverage Results" MODIFIED="1655934507266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go_explorando_linguagem_google$TestMedia_in_go_explorando_linguagem_google_08testes_matematica.out" NAME="TestMedia in go-explorando-linguagem-google/08testes/matematica Coverage Results" MODIFIED="1655934613899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go_explorando_linguagem_google$matematica_test_go.out" NAME="matematica_test.go Coverage Results" MODIFIED="1655934900334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go_explorando_linguagem_google$TestMedia_in_matematica.out" NAME="TestMedia in matematica Coverage Results" MODIFIED="1655934781012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go_explorando_linguagem_google$TestIndex_in_tabela.out" NAME="TestIndex in tabela Coverage Results" MODIFIED="1655935865416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
