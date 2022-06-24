@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a571a936-7107-4cba-aa85-2534f11dca88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/09sql/estrutura/estrutura.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09sql/insert/insert.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09sql/select/select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09sql/transacao/transacao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09sql/updatedelete/updatedelete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10http/dinamico/dinamico.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10http/serverdb/cliente.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10http/serverdb/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10http/static/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10http/static/static.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dfernandes/go/src/go-explorando-linguagem-google/04funcoes/init&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/dfernandes/go/src/go-explorando-linguagem-google/09sql/estrutura",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/09sql/estrutura" />
       <recent name="$PROJECT_DIR$/04funcoes/init" />
       <recent name="$PROJECT_DIR$/04funcoes" />
     </key>
@@ -64,14 +67,23 @@
       <recent name="$PROJECT_DIR$/09sql/transacao" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build select">
-    <configuration name="go build crud" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build serverdb">
+    <configuration name="go build dinamico" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$/09sql/crud" />
+      <working_directory value="$PROJECT_DIR$/10http/dinamico" />
       <kind value="PACKAGE" />
-      <package value="crud" />
+      <package value="dinamico" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/09sql/crud/insert.go" />
+      <filePath value="$PROJECT_DIR$/10http/dinamico/dinamico.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build estrutura" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-explorando-linguagem-google" />
+      <working_directory value="$PROJECT_DIR$/09sql/estrutura" />
+      <kind value="PACKAGE" />
+      <package value="estrutura" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/09sql/estrutura/estrutura.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build insert" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -83,47 +95,38 @@
       <filePath value="$PROJECT_DIR$/09sql/insert/insert.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build select" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build serverdb" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$/09sql/select" />
+      <working_directory value="$PROJECT_DIR$/10http/serverdb" />
       <kind value="PACKAGE" />
-      <package value="select" />
+      <package value="serverdb" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/09sql/select/select.go" />
+      <filePath value="$PROJECT_DIR$/10http/serverdb/server.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build transacao" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build static.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$/09sql/transacao" />
-      <kind value="PACKAGE" />
-      <package value="transacao" />
+      <working_directory value="$PROJECT_DIR$/10http/static" />
+      <kind value="FILE" />
+      <package value="go-explorando-linguagem-google" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/09sql/transacao/transacao.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build updatedelete" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-explorando-linguagem-google" />
-      <working_directory value="$PROJECT_DIR$/09sql/updatedelete" />
-      <kind value="PACKAGE" />
-      <package value="updatedelete" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/09sql/updatedelete/updatedelete.go" />
+      <filePath value="$PROJECT_DIR$/10http/static/static.go" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build crud" />
+      <item itemvalue="Go Build.go build estrutura" />
       <item itemvalue="Go Build.go build insert" />
-      <item itemvalue="Go Build.go build select" />
-      <item itemvalue="Go Build.go build transacao" />
-      <item itemvalue="Go Build.go build updatedelete" />
+      <item itemvalue="Go Build.go build serverdb" />
+      <item itemvalue="Go Build.go build dinamico" />
+      <item itemvalue="Go Build.go build static.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build select" />
-        <item itemvalue="Go Build.go build updatedelete" />
-        <item itemvalue="Go Build.go build transacao" />
+        <item itemvalue="Go Build.go build serverdb" />
         <item itemvalue="Go Build.go build insert" />
-        <item itemvalue="Go Build.go build crud" />
+        <item itemvalue="Go Build.go build estrutura" />
+        <item itemvalue="Go Build.go build dinamico" />
+        <item itemvalue="Go Build.go build static.go" />
       </list>
     </recent_temporary>
   </component>
